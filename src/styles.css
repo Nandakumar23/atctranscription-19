@@ -1,1 +1,53 @@
 /* You can add global styles to this file, and also import other style files */
+@import '../node_modules/@angular/material/prebuilt-themes/indigo-pink.css';
+
+body{
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: auto !important;
+}
+
+label{
+  white-space: pre-wrap;
+}
+
+/* Scrollbar Styles */
+::-webkit-scrollbar {
+  width: 6px !important;  /* Vertical scrollbar width */
+  height: 6px !important; /* Horizontal scrollbar height */
+}
+
+/* Scrollbar Thumb (Draggable part) */
+::-webkit-scrollbar-thumb {
+  background-color: rgb(196, 196, 196) !important;
+  border-radius: 15px !important;
+}
+
+/* Scrollbar Track (Background) */
+::-webkit-scrollbar-track-piece { 
+  background-color: rgb(231, 231, 231) !important;
+}
+
+/* Horizontal Scrollbar */
+::-webkit-scrollbar:horizontal {
+  height: 6px !important;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+  background-color: rgb(196, 196, 196) !important;
+  border-radius: 15px !important;
+}
+
+/* Dialog Box Class */
+.custom-dialog-container .mat-dialog-container {
+  padding: 0px !important;
+  min-width: 30vw;
+  max-width: 90vw;
+  min-height: 30px;
+  max-height: 90vh;
+  border-radius: 20px;
+}
+  
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
